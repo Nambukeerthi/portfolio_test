@@ -90,7 +90,7 @@ st.markdown(
                     </h1>
                     """,
                     unsafe_allow_html=True
-                )
+                ),
 
 
          This Project that enables users to access, analyze, and visualize data from multiple YouTube channels.
