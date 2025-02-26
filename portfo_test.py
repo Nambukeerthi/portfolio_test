@@ -81,7 +81,7 @@ st.markdown(
                     """
                     <h1 style="text-align: center;">
                         <br>
-                        <img src="https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg" alt="Youtube Data Warehousing" width="200">
+                        <img src="https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg" alt="" width="200">
                         <br>
                     </h1>
                     """,
