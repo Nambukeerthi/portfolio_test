@@ -40,7 +40,10 @@ st.header("NAMBU KEERTHI R")
 st.subheader(":blue[Data Scientist]")
 st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
 
-
+st.markdown(
+    "<hr style='border:3px dashed blue'>",
+    unsafe_allow_html=True
+)
 
 st.subheader("SKILLS")
 st.markdown(
