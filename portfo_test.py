@@ -77,16 +77,9 @@ st.markdown(" ")
   
 
 st.subheader("PROJECTS")
-st.markdown(
-                    """
-                    <h1 style="text-align: center;">
-                        <br>
-                        <img src="https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg" width="200">
-                        <br>
-                    </h1>
-                    """,
-                    unsafe_allow_html=True
-                )
+img = Image.open("https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg")
+    img_resized = img.resize((200, 200))
+    st.image( img_resized,  channels="RGB" )
 
 st.markdown(
     """
