@@ -77,7 +77,7 @@ st.markdown(" ")
   
 
 st.subheader("PROJECTS")
-img = Image.open("https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg")
+img = Image.open("youtube_project.jpeg")
 img_resized = img.resize((200, 200))
 st.image( img_resized,  channels="RGB" )
 
