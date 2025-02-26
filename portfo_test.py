@@ -8,7 +8,7 @@ st.set_page_config(
         page_icon="",
 
     )
-with sidebar("""
+with sidebar.markdown("""
     #st.write("portfolio")
     img = Image.open("WhatsApp.jpeg")
     img_resized = img.resize((500, 500))
