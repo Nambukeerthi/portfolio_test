@@ -61,7 +61,15 @@ st.markdown(
 :sun_behind_cloud: :blue-background[Cloud] - *AWS*       """)
 
 st.markdown(" ")
-st.markdown(" ")    
+st.markdown(" ")   
+
+
+st.markdown(
+    "<hr style='border: 3px solid blue; margin: 10px 0;'>",
+    unsafe_allow_html=True
+)
+
+
 st.markdown(" ")    
   
 
