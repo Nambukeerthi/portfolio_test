@@ -34,22 +34,11 @@ with st.sidebar :
     st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/") 
     
 
-
-      
-col1, col2 = st.columns(2)
-
-with col1:
-    #st.write("portfolio")
-    img = Image.open("logo.jpg")
-    img_resized = img.resize((500, 500))
-    st.image( img_resized,  channels="RGB" )
-    
-with col2:
         
-   st.header("NAMBU KEERTHI R")
-   st.subheader(":blue[Data Scientist]")
-   st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
-   st.write("nambu935@gmail.com")
+st.header("NAMBU KEERTHI R")
+st.subheader(":blue[Data Scientist]")
+st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
+st.write("nambu935@gmail.com")
 
 
 st.subheader("SKILLS")
@@ -72,14 +61,7 @@ st.markdown(" ")
 st.markdown(" ")    
 st.markdown(" ")
 st.markdown(" ")    
-st.markdown(" ")
-st.markdown(" ")
-st.markdown(" ")    
-st.markdown(" ")
-st.markdown(" ")
-st.markdown(" ")    
-st.markdown(" ")
-    
+
 
 st.subheader("PROJECTS")
 st.markdown(
