@@ -13,6 +13,7 @@ with st.sidebar :
     img = Image.open("WhatsApp.jpeg")
     img_resized = img.resize((500, 500))
     st.image( img_resized,  channels="RGB" )
+    st.write("nambu935@gmail.com")    
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")    
@@ -38,7 +39,7 @@ with st.sidebar :
 st.header("NAMBU KEERTHI R")
 st.subheader(":blue[Data Scientist]")
 st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
-st.write("nambu935@gmail.com")
+
 
 
 st.subheader("SKILLS")
