@@ -80,6 +80,18 @@ st.subheader("PROJECTS")
 st.markdown(
     """
     1. [YouTube Data Harvesting and Warehousing](https://youtubedataproject-mkjagva9qhyswv8gukrxaq.streamlit.app/)
+                 
+    st.markdown(
+                    """
+                    <h1 style="text-align: center;">
+                        <br>
+                        <img src="https://github.com/Nambukeerthi/youtube_dataproject/blob/main/youtube_project.jpeg" alt="Youtube Data Warehousing" width="200">
+                        <br>
+                    </h1>
+                    """,
+                    unsafe_allow_html=True
+                )
+
 
          This Project that enables users to access, analyze, and visualize data from multiple YouTube channels.
          
