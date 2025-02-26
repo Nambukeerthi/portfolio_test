@@ -1,6 +1,0 @@
-streamlit
-numba
-pip
-uv
-sqlalchemy
-
