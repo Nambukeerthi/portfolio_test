@@ -8,7 +8,7 @@ st.set_page_config(
         page_icon="",
 
     )
-with sidebar.markdown("""
+with sidebar :
     #st.write("portfolio")
     img = Image.open("WhatsApp.jpeg")
     img_resized = img.resize((500, 500))
@@ -32,7 +32,7 @@ with sidebar.markdown("""
     st.markdown(" ")    
     st.markdown(" ")
     st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/") 
-    """)   
+    
 
 
       
