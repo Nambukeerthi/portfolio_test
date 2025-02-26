@@ -41,7 +41,7 @@ st.subheader(":blue[Data Scientist]")
 st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
 
 st.markdown(
-    "<hr style='border:3px dashed blue'>",
+    "<hr style='border: 3px solid skyblue; margin: 10px 0;'>",
     unsafe_allow_html=True
 )
 
@@ -65,7 +65,7 @@ st.markdown(" ")
 
 
 st.markdown(
-    "<hr style='border: 3px solid blue; margin: 10px 0;'>",
+    "<hr style='border: 3px solid skyblue; margin: 10px 0;'>",
     unsafe_allow_html=True
 )
 
