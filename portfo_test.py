@@ -8,7 +8,34 @@ st.set_page_config(
         page_icon="",
 
     )
+with sidebar:
+    #st.write("portfolio")
+    img = Image.open("WhatsApp.jpeg")
+    img_resized = img.resize((500, 500))
+    st.image( img_resized,  channels="RGB" )
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")    
+    with open("Nambu_Keerthi_Data_Scientist (5).pdf", "rb") as file:
+        pdf_data = file.read()    
+    st.download_button(
+     label="Resume",
+     data=pdf_data,
+     file_name="Nambu_Keerthi_Data_Scientist.pdf", 
+     mime="application/pdf",        
+        )     
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")    
+    st.link_button("Git Hub", "https://github.com/Nambukeerthi")
+    st.markdown(" ")
+    st.markdown(" ")    
+    st.markdown(" ")
+    st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/") 
+        
 
+
+      
 col1, col2 = st.columns(2)
 
 with col1:
@@ -18,47 +45,42 @@ with col1:
     st.image( img_resized,  channels="RGB" )
     
 with col2:
-   
+        
    st.header("NAMBU KEERTHI R")
    st.subheader(":blue[Data Scientist]")
    st.markdown("I am a Data Science fresher aiming to leverage my robust programming skills, analytical aptitude, and proficiency in data visualizations to effectively analyze, interpret, and present insights from extensive datasets accurately and meaningfully") 
    st.write("nambu935@gmail.com")
-col1, col2,col3 = st.columns(3)
-with col1: 
-    with open("Nambu_Keerthi_Data_Scientist (4).pdf", "rb") as file:
-        pdf_data = file.read()    
-    st.download_button(
-     label="Resume",
-     data=pdf_data,
-     file_name="Nambu_Keerthi_Data_Scientist.pdf", 
-     mime="application/pdf",        
-        )     
-   
-with col2:
-   st.link_button("Git Hub", "https://github.com/Nambukeerthi")
-   
-with col3:
-   st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/")        
-
 
 
 st.subheader("SKILLS")
 st.markdown(
-    """
-    :computer: :blue-background[Technologies] - *Python, Streamlit, EDA, API integration, VBA, Github*  
+"""
+:computer: :blue-background[Technologies] - *Python, Streamlit, EDA, API integration, VBA, Github*  
 
-    :books: :blue-background[Libraries] - *Numpy, Pandas, Skikit-learn, Matplotlib, Seaborn, SQLAlchemy, Boto3*
-    
-    :triangular_ruler: :blue-background[ML Models] - *Regression, Decision tree, Random Forest*
-    
-    :file_cabinet: :blue-background[Databases] - *MySQL, PostrageSQL, MangoDB, AWS RDS*
+:books: :blue-background[Libraries] - *Numpy, Pandas, Skikit-learn, Matplotlib, Seaborn, SQLAlchemy, Boto3*
 
-    :chart_with_upwards_trend: :blue-background[Data Visualization] - *Statistics, Power BI, MS Excel, Plotly*
+:triangular_ruler: :blue-background[ML Models] - *Regression, Decision tree, Random Forest*
+
+:file_cabinet: :blue-background[Databases] - *MySQL, PostrageSQL, MangoDB, AWS RDS*
+
+:chart_with_upwards_trend: :blue-background[Data Visualization] - *Statistics, Power BI, MS Excel, Plotly*
+
+:sun_behind_cloud: :blue-background[Cloud] - *AWS*       """)
+
+st.markdown(" ")
+st.markdown(" ")    
+st.markdown(" ")    
+st.markdown(" ")
+st.markdown(" ")    
+st.markdown(" ")
+st.markdown(" ")
+st.markdown(" ")    
+st.markdown(" ")
+st.markdown(" ")
+st.markdown(" ")    
+st.markdown(" ")
     
-    :sun_behind_cloud: :blue-background[Cloud] - *AWS* 
-    
-    """
-)
+
 st.subheader("PROJECTS")
 st.markdown(
     """
