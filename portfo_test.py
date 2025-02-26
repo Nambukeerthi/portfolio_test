@@ -60,9 +60,7 @@ st.markdown(
 st.markdown(" ")
 st.markdown(" ")    
 st.markdown(" ")    
-st.markdown(" ")
-st.markdown(" ")    
-
+  
 
 st.subheader("PROJECTS")
 st.markdown(
