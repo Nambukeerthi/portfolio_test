@@ -82,13 +82,14 @@ st.markdown(" ")
 st.subheader("PROJECTS")
 col1, col2 = st.columns(2)
 with col1:
+        st.markdown("**YouTube Data Harvesting and Warehousing**")
         img = Image.open("youtube_project.jpeg")
         img_resized = img.resize((300, 300))
         st.image( img_resized,  channels="RGB" )
 with col2:
         st.markdown(
             """
-            1. [YouTube Data Harvesting and Warehousing](https://youtubedataproject-mkjagva9qhyswv8gukrxaq.streamlit.app/)
+              [YouTube Data Harvesting and Warehousing](https://youtubedataproject-mkjagva9qhyswv8gukrxaq.streamlit.app/)
         
                  This Project that enables users to access, analyze, and visualize data from multiple YouTube channels.
                  
