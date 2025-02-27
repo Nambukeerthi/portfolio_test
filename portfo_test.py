@@ -36,8 +36,28 @@ with st.sidebar :
     st.markdown(" ")    
     st.markdown(" ")
     st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/") 
-    
-
+        
+            # Initialize session state
+    if "visible" not in st.session_state:
+            st.session_state.visible = False
+        
+        # Define two functions
+    def function_show():
+            st.write("Function Show Executed!")
+        
+    def function_hide():
+            st.write("Function Hide Executed!")
+        
+        # Toggle function
+     def toggle():
+            st.session_state.visible = not st.session_state.visible
+            if st.session_state.visible:
+                function_show()
+            else:
+                function_hide()
+    # Button to toggle functions
+     if st.button("Show/Hide"):
+       toggle()
         
 st.header("NAMBU KEERTHI R")
 
