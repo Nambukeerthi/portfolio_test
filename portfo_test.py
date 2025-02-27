@@ -14,9 +14,9 @@ with st.sidebar :
     img_resized = img.resize((500, 500))
     st.image( img_resized,  channels="RGB" )
     st.write("nambu935@gmail.com")
-    stream_data = "nambu935@gmail.com"  
+     
     if st.button("Email"):    
-     st.write(stream_data)    
+     st.write("nambu935@gmail.com")    
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")    
