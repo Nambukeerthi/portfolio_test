@@ -13,7 +13,6 @@ with st.sidebar :
     img = Image.open("WhatsApp.jpeg")
     img_resized = img.resize((500, 500))
     st.image( img_resized,  channels="RGB" )
-    st.write("nambu935@gmail.com")
      
     if st.button("Email"):    
      st.write("nambu935@gmail.com")
