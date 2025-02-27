@@ -16,7 +16,7 @@ with st.sidebar :
     st.write("nambu935@gmail.com")
     stream_data = "nambu935@gmail.com"  
     if st.button("Email"):    
-     st.write_stream(stream_data)    
+     st.write(stream_data)    
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")    
