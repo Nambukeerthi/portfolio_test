@@ -37,9 +37,7 @@ with st.sidebar :
     st.markdown(" ")    
     st.markdown(" ")
     st.link_button("linked in", "https://www.linkedin.com/in/keerthi-r-9b8839283/") 
-    options = ["Email"]  
-    selection = st.pills(options)    
-    st.markdown("hi")
+    
         
 st.header("NAMBU KEERTHI R")
 
