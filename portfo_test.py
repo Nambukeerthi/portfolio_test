@@ -80,9 +80,25 @@ st.markdown(" ")
   
 
 st.subheader("PROJECTS")
-img = Image.open("youtube_project.jpeg")
-img_resized = img.resize((200, 200))
-st.image( img_resized,  channels="RGB" )
+col1, col2 = st.columns(2)
+with col1:
+        img = Image.open("youtube_project.jpeg")
+        img_resized = img.resize((200, 200))
+        st.image( img_resized,  channels="RGB" )
+with col2:
+        st.markdown(
+            """
+            1. [YouTube Data Harvesting and Warehousing](https://youtubedataproject-mkjagva9qhyswv8gukrxaq.streamlit.app/)
+        
+                 This Project that enables users to access, analyze, and visualize data from multiple YouTube channels.
+                 
+                 :small_blue_diamond: Data harvesting from YouTube.
+                 
+                 :small_blue_diamond: SQL integration for efficient data warehousing.
+                 
+                 :small_blue_diamond: Interactive data exploration and analysis through Streamlit. """)
+
+
 
 st.markdown(
     """
