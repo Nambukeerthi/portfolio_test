@@ -13,7 +13,10 @@ with st.sidebar :
     img = Image.open("WhatsApp.jpeg")
     img_resized = img.resize((500, 500))
     st.image( img_resized,  channels="RGB" )
-    st.button("Email","nambu935@gmail.com")    
+    st.write("nambu935@gmail.com")
+    stream_data = "nambu935@gmail.com"  
+    if st.button("Email"):    
+     st.write_stream(stream_data)    
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")    
