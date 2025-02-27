@@ -56,7 +56,7 @@ with st.sidebar :
             else:
                 function_hide()
     # Button to toggle functions
-     if st.button("Show/Hide"):
+    if st.button("Show/Hide"):
        toggle()
         
 st.header("NAMBU KEERTHI R")
