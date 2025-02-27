@@ -83,7 +83,7 @@ st.subheader("PROJECTS")
 col1, col2 = st.columns(2)
 with col1:
         img = Image.open("youtube_project.jpeg")
-        img_resized = img.resize((200, 200))
+        img_resized = img.resize((300, 300))
         st.image( img_resized,  channels="RGB" )
 with col2:
         st.markdown(
