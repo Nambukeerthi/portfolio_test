@@ -49,7 +49,7 @@ with st.sidebar :
             st.write("Function Hide Executed!")
         
         # Toggle function
-     def toggle():
+    def toggle():
             st.session_state.visible = not st.session_state.visible
             if st.session_state.visible:
                 function_show()
